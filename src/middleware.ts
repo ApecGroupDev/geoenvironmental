@@ -3,20 +3,7 @@ import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 
 const goneUrls = [
-  '/blog',
-  '/underground-tanks',
-  '/services/construction',
-  '/services/imaging-and-canopies',
-  '/above-ground-tank',
-  '/resources',
-  '/gas-station-financing',
-  '/home',
-  '/gas-station-pump-advertising',
-  '/gas-station-electrical',
-  '/canopy-imaging-solutions',
-  '/environmental-compliance-solutions',
-  '/gas-station-construction',
-  '/careers',
+  '/missing-page',
 ]
 
 export function middleware(request: NextRequest) {
@@ -88,19 +75,6 @@ export function middleware(request: NextRequest) {
 
 export const config = {
   matcher: [
-    '/blog',
-    '/underground-tanks',
-    '/services/construction',
-    '/services/imaging-and-canopies',
-    '/above-ground-tank',
-    '/resources',
-    '/gas-station-financing',
-    '/home',
-    '/gas-station-pump-advertising',
-    '/gas-station-electrical',
-    '/canopy-imaging-solutions',
-    '/environmental-compliance-solutions',
-    '/gas-station-construction',
-    '/careers',
+    '/missing-page',
   ],
 }
