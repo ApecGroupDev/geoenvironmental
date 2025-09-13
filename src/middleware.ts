@@ -33,7 +33,7 @@ export function middleware(request: NextRequest) {
           h1 {
             font-size: 5rem;
             margin-bottom: 1rem;
-            color: #c62931;
+            color: #1DA978;
           }
           p {
             font-size: 2rem;
@@ -44,7 +44,7 @@ export function middleware(request: NextRequest) {
             display: inline-block;
             font-size: 1.50rem;
             padding: 0.75rem 1.5rem;
-            background: #c62931;
+            background: #1DA978;
             color: white;
             text-decoration: none;
             border-radius: 0.5rem;
